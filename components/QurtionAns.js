@@ -50,7 +50,7 @@ export default function QurtionAns() {
                     {/* <!-- accordion-tab  --> */}
                     {
                         datas.map((data) =>
-                            <div className="group outline-none" tabindex="1">
+                            <div key={data.id} className="group outline-none" tabindex="1">
                                 <div className="group flex justify-between px-4 py-4 items-center  transition ease duration-500 cursor-pointer pr-10 relative border-b border-b-gray-700 group-focus:bg-indigo-800 hover:bg-indigo-800 ">
                                     <div className="group-focus:text-white transition duration-500">
                                         {data.qurtion}
