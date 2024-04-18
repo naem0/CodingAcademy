@@ -45,3 +45,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+ff-powered-img{
+  display: none !important;
+}
